@@ -2,7 +2,7 @@
 
 ## Utilities
 
-All utilities can be imported from `@zooom/integration-react`.
+All utilities can be imported from `@zooom/integration-react/utils`.
 
 ### registerReactComponent
 
@@ -32,7 +32,7 @@ type Options = {
 ```ts
 // /src/components/ExampleComponent.tsx
 
-import { registerReactComponent } from '@zooom/integration-react';
+import { registerReactComponent } from '@zooom/integration-react/utils';
 
 type ExampleComponentProps = { class?: string; children?: string };
 
